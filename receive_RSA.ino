@@ -19,10 +19,12 @@ void setup() {
 
   n = p * q;  // the mod value
 
-  // M = 2;      // the message
+  // Message 
+  // M = 2;      
   M = 69;
   // M = 2;
 
+  // Simulate receiving of encrypted msg
   //received_encrypted_message = 52;   // 2^33 mod 55
   received_encrypted_message = 82;
   //received_encrypted_message = 32;
@@ -67,7 +69,7 @@ void loop() {
       M = (M * temp) % n;
     }
 
-    // Logical Shift right of d by 1 bit
+    // Logical Shift right of d by 1 bit (not needed now since bits are stored in array)
     d = d >> 1;
     digitalWrite(12, HIGH);
 
