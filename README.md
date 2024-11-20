@@ -1,6 +1,6 @@
 # NTU SC4010 Applied Cryptography Project - Simple Power Analysis
-In this repository, we will be attempting to retrive RSA decryption keys from an Arduino running the RSA algorithm using Simple Power Analysis.
-We will also be referencing a study done by Xunyue He, et al - Blind-Folded: Simple Power Analysis Attacks using Data with a Single Trace and no Training.
+In this repository, we will be attempting to conduct a side channel attack, Simple Power Analysis, on an Arduino Uno running the RSA algorithm. In this project, we will be attempting to retrieve the decryption key via the power trace. We will also be referencing a study done by Xunyue He, et al - Blind-Folded: Simple Power Analysis Attacks using Data with a Single Trace and no Training.
+This project is done as part of the NTU's module, SC4010 Applied Cryptography
 
 ## Arduino files
 1) Basic operations
