@@ -12,12 +12,17 @@ We will also be referencing a study done by Xunyue He, et al - Blind-Folded: Sim
 3) receive_RSA_libgcrypt_implementation
    - Traditional RSA algo, but with masking of the square & multiply operation
 4) receive_RSA_ECC
-   - not completed
+   - not completed/used
 
-## SPA_on_RSA_Arduino
+## Project_code
 1) processing.ipynb
    - Code to process the traces obtained from the oscilloscope, obtaining the decryption key
+2) big_d_attempt.ipynb
+   - Attempting SPA on a relatively larger decryption key
+   - Does not work due to several hardware limitations
+3) Other files containing images or oscilloscope readings for power and timing trace
 
 ## libgcrypt_RSA
 1) libgcrypt_processing
    - Code and Pseudocode for processing the traces obtained from libgcrypt's implementation of traditional RSA
+   - Sample traces are taken from https://github.com/huxunyue/spa_data/tree/main
