@@ -26,3 +26,6 @@ We will also be referencing a study done by Xunyue He, et al - Blind-Folded: Sim
 1) libgcrypt_processing
    - Code and Pseudocode for processing the traces obtained from libgcrypt's implementation of traditional RSA
    - Sample traces are taken from https://github.com/huxunyue/spa_data/tree/main
+
+## Side Channel Attack - Simple Power Analysis on Arduino.pdf
+- Slides used for the presentation
